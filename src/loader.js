@@ -1,4 +1,3 @@
-import { getOptions } from 'loader-utils';
 import spud from 'spud';
 
 export default function loader(source) {
