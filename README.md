@@ -1,4 +1,4 @@
-# kraken-properties-loader
+# webpack-kraken-properties-loader
 --------------------------
 
 install
