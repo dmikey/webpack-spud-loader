@@ -1,7 +1,5 @@
 import { getOptions } from 'loader-utils';
-var MemoryFileSystem = require("memory-fs");
-var fs = new MemoryFileSystem();
-const spud = require('spud');
+import spud from 'spud';
 
 export default function loader(source) {
   // converts a kraken .properties file into a json export
@@ -13,7 +11,7 @@ export default function loader(source) {
   } catch(e) {
     console.log(e);
   }
-  
+
   // return json payload
   return `${ JSON.stringify(ret) }`;
 };

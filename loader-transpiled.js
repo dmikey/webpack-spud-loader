@@ -7,9 +7,11 @@ exports.default = loader;
 
 var _loaderUtils = require('loader-utils');
 
-var MemoryFileSystem = require("memory-fs");
-var fs = new MemoryFileSystem();
-var spud = require('spud');
+var _spud = require('spud');
+
+var _spud2 = _interopRequireDefault(_spud);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function loader(source) {
   // converts a kraken .properties file into a json export
@@ -17,7 +19,7 @@ function loader(source) {
   var ret = {};
 
   try {
-    ret = spud.parse(source);
+    ret = _spud2.default.parse(source);
   } catch (e) {
     console.log(e);
   }

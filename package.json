@@ -1,6 +1,6 @@
 {
   "name": "webpack-kraken-properties-loader",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "loads kraken properties files into json",
   "main": "loader-transpiled.js",
   "scripts": {
@@ -14,7 +14,6 @@
     "babel-preset-env": "^1.6.1",
     "jest": "^22.4.3",
     "json-loader": "^0.5.7",
-    "memory-fs": "^0.4.1",
     "webpack": "^4.6.0"
   },
   "directories": {
