@@ -16,7 +16,7 @@ module.exports = {
         test: /\.properties$/,
         use: [
           'json-loader',
-          'kraken-properties-loader'
+          'webpack-kraken-properties-loader'
         ]
       }]
     }
