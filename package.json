@@ -1,7 +1,7 @@
 {
   "name": "webpack-kraken-properties-loader",
-  "version": "1.0.4",
-  "description": "loads merlion .properties files into javascript objects",
+  "version": "1.0.5",
+  "description": "loads kraken properties files into json",
   "main": "loader-transpiled.js",
   "scripts": {
     "test": "jest",
