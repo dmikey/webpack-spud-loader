@@ -1,6 +1,6 @@
 {
   "name": "webpack-kraken-properties-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "loads merlion .properties files into javascript objects",
   "main": "src/loader.js",
   "scripts": {
@@ -15,5 +15,17 @@
     "json-loader": "^0.5.7",
     "memory-fs": "^0.4.1",
     "webpack": "^4.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmikey/webpack-kraken-properties-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmikey/webpack-kraken-properties-loader/issues"
+  },
+  "homepage": "https://github.com/dmikey/webpack-kraken-properties-loader#readme"
 }
