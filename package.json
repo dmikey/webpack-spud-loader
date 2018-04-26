@@ -1,10 +1,11 @@
 {
   "name": "webpack-kraken-properties-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "loads merlion .properties files into javascript objects",
-  "main": "src/loader.js",
+  "main": "loader-transpiled.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src/loader.js --out-file loader-transpiled.js"
   },
   "author": "Derek Anderson",
   "license": "MIT",
