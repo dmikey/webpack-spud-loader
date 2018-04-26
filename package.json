@@ -1,6 +1,6 @@
 {
   "name": "webpack-kraken-properties-loader",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "loads kraken properties files into json",
   "main": "loader-transpiled.js",
   "scripts": {
@@ -20,7 +20,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "spud": "^2.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmikey/webpack-kraken-properties-loader.git"

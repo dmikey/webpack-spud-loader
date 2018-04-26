@@ -26,7 +26,7 @@ module.exports = {
 
 ## what it does
 
-transforms kraken properties files into json strings, use other webpack loaders to transform or dynamically load things like locale.
+transforms kraken properties files into json strings using `spud`, use other webpack loaders to transform or dynamically load things like locale.
 
 ### input
 
