@@ -4,7 +4,7 @@
 install
 
 ```bash
-npm -i kraken-properties-loader
+npm -i webpack-kraken-properties-loader
 ```
 
 usage
