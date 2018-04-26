@@ -1,5 +1,5 @@
 {
-  "name": "webpack-kraken-properties-loader",
+  "name": "webpack-spud-loader",
   "version": "1.0.8",
   "description": "loads kraken properties files into json",
   "main": "loader-transpiled.js",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmikey/webpack-kraken-properties-loader.git"
+    "url": "git+https://github.com/dmikey/webpack-spud-loader.git"
   },
   "bugs": {
-    "url": "https://github.com/dmikey/webpack-kraken-properties-loader/issues"
+    "url": "https://github.com/dmikey/webpack-spud-loader/issues"
   },
-  "homepage": "https://github.com/dmikey/webpack-kraken-properties-loader#readme"
+  "homepage": "https://github.com/dmikey/webpack-spud-loader#readme"
 }

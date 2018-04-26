@@ -1,10 +1,10 @@
-# webpack-kraken-properties-loader
+# webpack-spud-loader
 --------------------------
 
 install
 
 ```bash
-npm -i webpack-kraken-properties-loader
+npm -i webpack-spud-loader
 ```
 
 usage
@@ -16,7 +16,7 @@ module.exports = {
         test: /\.properties$/,
         use: [
           'json-loader',
-          'webpack-kraken-properties-loader'
+          'webpack-spud-loader'
         ]
       }]
     }
