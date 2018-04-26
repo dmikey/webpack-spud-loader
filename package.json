@@ -1,6 +1,6 @@
 {
   "name": "webpack-kraken-properties-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "loads merlion .properties files into javascript objects",
   "main": "src/index.js",
   "scripts": {
