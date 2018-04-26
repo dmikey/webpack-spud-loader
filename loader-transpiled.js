@@ -15,7 +15,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function loader(source) {
   // converts a kraken .properties file into a json export
-  var options = (0, _loaderUtils.getOptions)(this);
   var ret = {};
 
   try {

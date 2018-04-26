@@ -3,7 +3,6 @@ import spud from 'spud';
 
 export default function loader(source) {
   // converts a kraken .properties file into a json export
-  const options = getOptions(this);
   let ret = {};
 
   try {
